@@ -19,22 +19,22 @@ html, body {
 
 body{
 	font: 130%/1.3 TrebuchetMS,Arial,sans-serif;  /* Default fonts */
-	text-align: left; /* Alignment of the text */
+	text-align: center; /* Alignment of the text */
 	color: black; /* Main text color */
 	background: white; /* Main text background color */
 	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
 }
 
 a {                  /* A stands for link, so this section is setting the default characteristics of links. */
-	color: #0000cc;
+	color: #000099;
 	text-decoration: none;
 }
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em Arial, Arial, Sans-Serif;
-	text-align: left;
+	text-align: center;
 	padding: 0;
-	color: #cc0000;
+	color: #330066;
 }
 
 h2 {		     /* This styles the headers within the page */
@@ -54,7 +54,7 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background: white;
+	background: #D8D8D8;
 	color: black;
 	font: Arial, Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
@@ -62,18 +62,19 @@ div.section {
 
 /* You can alter the links within a div with the following syntax */
 #plan a {
-	color: ##0000cc;
+	color: #66CC00;
 }
 
 /* This alters the appearance of the div with id="signup". */
 #signup {      /* In normal OSCTC to events, there's a sign up form here, so that's why this div is called signup :)  */
-	background: #e8f8f8;
+	background: #D8D8D8;
+	color: #000033;
 	text-align: center;
 }
 
 /* This alters the appearance of the div with id="whoweare" */
 #whoweare {
-	background: #e8f8f8;
+	background: #D8D8D8;
 	color: black; 
 }
 
